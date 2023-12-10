@@ -9,14 +9,11 @@ for (int i=0; i<N;i++){
 Console.WriteLine();
 void ReverseArray(int[] mas){
     int t;
-
-  // реверсирование массива
     for (int i=0;i<mas.Length/2;i++){
         t = mas[i];
         mas[i] = mas[mas.Length - i - 1];
         mas[mas.Length - i - 1] = t;
     }
-
     return;
     }
 ReverseArray(mas);
