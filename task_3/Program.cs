@@ -1,4 +1,4 @@
-﻿﻿﻿using System;
+﻿﻿using System;
 Random rnd = new Random();
 int N = 5;
 int [] mas = new int [N];
